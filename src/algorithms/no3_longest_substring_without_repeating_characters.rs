@@ -2,7 +2,7 @@
 //!
 //! Given a string `s`, find the length of the longest substring without repeating characters.
 //!
-//! problem: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+//! Problem: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 pub mod brute_force {
     use crate::{byte_string, util::ByteString};
