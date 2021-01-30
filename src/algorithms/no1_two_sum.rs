@@ -1,4 +1,4 @@
-//! Two Sum
+//! # Two Sum
 //!
 //! Given an array of integers `nums` and an integer `target`, return indices of the two numbers
 //! such that that add up to `target`.
@@ -83,7 +83,7 @@ pub mod one_pass_hashmap {
     /// Space complexity: `O(n)`.
     ///
     /// ```
-    /// # use leetcode_rust::algorithms::no1_two_sum::two_pass_hashmap::*;
+    /// # use leetcode_rust::algorithms::no1_two_sum::one_pass_hashmap::*;
     /// assert_eq!(Solution::two_sum(vec![2, 7, 11, 15], 9), vec![0, 1]);
     /// assert_eq!(Solution::two_sum(vec![3, 2, 4], 6), vec![1, 2]);
     /// assert_eq!(Solution::two_sum(vec![3, 3], 6), vec![0, 1]);
